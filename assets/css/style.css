@@ -1,0 +1,64 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Título */
+.titulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.titulo2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+.paragrafo{
+    font-family: 'Calibri','Aptos';
+    font-size: medium;
+}
+.legenda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/* Cores */
+.cor1{
+    color: #f00;
+}
+.cor2{
+    color: #0f0;
+}
+.cor3{
+    color: #00f;
+}
+
+/* Display */
+.linha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: black 2px solid;
+}
+
+.caixa{
+    height: 100px;
+    border: gray 1px dashed;
+}
+
+.cxGrande{
+    width: 100%;
+}
+
+.cxMedia{
+    width: 50%;
+}
+
+.cxPequena{
+    width: 33%; 
+}
